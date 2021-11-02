@@ -75,8 +75,8 @@ Login/Register screen, Stream screen, Detail screen, Creation screen
                * Post Notes Here
 
 ## Wireframes
-![Screen_Shot_2021-11-01_at_10 10 57_PM](https://user-images.githubusercontent.com/70527398/139775561-c18c7614-5e3e-47be-b813-b452785562be.png)
-[NoteTaker](https://github.com/AshaJG/iOS_NoteTaking/files/7457344/Ultimate.Social.Network.UI.Kit.2021.Community.1.pdf)
+![Screen Shot 2021-11-01 at 10 24 31 PM](https://user-images.githubusercontent.com/70527398/139776584-7c549243-19ea-49ea-852d-0391ecf926e0.png)
+
 
 ## Schema 
 [This section will be completed in Unit 9]
