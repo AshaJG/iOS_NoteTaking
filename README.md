@@ -73,7 +73,6 @@ Login/Register screen, Stream screen, Detail screen, Searching screen, Creation 
         * 
 
 ## Wireframes
-[Add picture of your  wireframes in this section]
 ![Screen_Shot_2021-11-01_at_10 10 57_PM](https://user-images.githubusercontent.com/70527398/139775561-c18c7614-5e3e-47be-b813-b452785562be.png)
 
 
