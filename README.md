@@ -76,8 +76,7 @@ Login/Register screen, Stream screen, Detail screen, Creation screen
 
 ## Wireframes
 ![Screen_Shot_2021-11-01_at_10 10 57_PM](https://user-images.githubusercontent.com/70527398/139775561-c18c7614-5e3e-47be-b813-b452785562be.png)
-
-
+[NoteTaker](https://github.com/AshaJG/iOS_NoteTaking/files/7457344/Ultimate.Social.Network.UI.Kit.2021.Community.1.pdf)
 
 ## Schema 
 [This section will be completed in Unit 9]
@@ -87,3 +86,4 @@ Login/Register screen, Stream screen, Detail screen, Creation screen
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
+
