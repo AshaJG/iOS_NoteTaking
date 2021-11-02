@@ -60,10 +60,7 @@ The app will have past or current students upload lecture notes so that students
 
 What screens will the user see?
 
-Login/Register screen
-Stream screen
-Detail screen
-Searching screen
+Login/Register screen, Stream screen, Detail screen, Searching screen
 
 ### 3. Navigation
 
