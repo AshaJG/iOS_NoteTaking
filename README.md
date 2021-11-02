@@ -1,7 +1,7 @@
 Original App Design Project - README Template
 ===
 
-# NoteTaking (Placeholder)
+# NoteTaker (Placeholder)
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -15,7 +15,7 @@ Notetaker is an app that allows students from past and current semesters upload 
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:** Education
+- **Category:** Education/Social Media
 - **Mobile:** Primarily for mobile, since we want users to take pictures however website functionality would also be easily available with examples like Chegg as one of them.
 - **Story:** Analyzing user stories of students in classes and how a typical lecture is held. Being able to friend users in the same classes, or alumni of a course.
 - **Market:** Mainly college students would use these notes to either make decisions on whether to take the course or just look at notes that are better than theirs
