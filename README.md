@@ -60,7 +60,7 @@ The app will have past or current students upload lecture notes so that students
 
 What screens will the user see?
 
-Login/Register screen, Stream screen, Detail screen, Searching screen
+Login/Register screen, Stream screen, Detail screen, Searching screen, Creation screen
 
 ### 3. Navigation
 
@@ -74,7 +74,8 @@ Login/Register screen, Stream screen, Detail screen, Searching screen
 
 ## Wireframes
 [Add picture of your  wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+![Screen_Shot_2021-11-01_at_10 10 57_PM](https://user-images.githubusercontent.com/70527398/139775561-c18c7614-5e3e-47be-b813-b452785562be.png)
+
 
 
 ## Schema 
