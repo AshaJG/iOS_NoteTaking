@@ -67,10 +67,12 @@ Login/Register screen, Stream screen, Detail screen, Searching screen, Creation 
 **Flow Navigation** (Screen to Screen)
 
 * (Examples) 
-    * Login
-        * Home, Profile, Settings
-            * (within settings) you have the option to delete
-        * 
+    * Launch Screen
+        * Login/Register
+            * Navigation/Main Screen
+            * Can look at notes on here, post notes or look up courses
+               * Creation Screen
+               * Post Notes Here
 
 ## Wireframes
 ![Screen_Shot_2021-11-01_at_10 10 57_PM](https://user-images.githubusercontent.com/70527398/139775561-c18c7614-5e3e-47be-b813-b452785562be.png)
