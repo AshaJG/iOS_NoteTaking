@@ -8,6 +8,7 @@ The following **required** functionality is completed:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+
 ![ezgif-7-d8771ec813d4](https://user-images.githubusercontent.com/70527398/141922414-d483e04c-60a0-4357-8832-0c7d164cf8fc.gif)
 
 
