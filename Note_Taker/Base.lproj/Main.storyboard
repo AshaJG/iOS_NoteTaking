@@ -11,7 +11,7 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="Note_Taker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="BYZ-38-t0r" customClass="LoginViewController" customModule="Note_Taker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -84,7 +84,13 @@
                         <viewLayoutGuide key="safeArea" id="Aiv-b6-NhJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="VYR-dJ-aHF"/>
+                    <navigationItem key="navigationItem" id="VYR-dJ-aHF">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="wBY-Qx-DLp">
+                            <connections>
+                                <action selector="onLogout:" destination="aKx-6R-nOA" id="4UC-zw-EIp"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UEu-ZU-l6d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -93,7 +99,7 @@
         <!--Navigation Controller-->
         <scene sceneID="TbC-tc-BBS">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="juo-Ny-2aB" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="FeedNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="juo-Ny-2aB" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="6H9-qZ-Ndh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
