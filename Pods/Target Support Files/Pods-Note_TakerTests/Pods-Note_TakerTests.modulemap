@@ -1,0 +1,6 @@
+framework module Pods_Note_TakerTests {
+  umbrella header "Pods-Note_TakerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
