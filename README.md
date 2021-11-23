@@ -1,3 +1,16 @@
+## User Stories (Part Two)
+
+The following **required** functionality is completed:
+
+- [X] Users can logout for the app.
+- [X] Post creation screen is made.
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+![ezgif-7-f639d209c8b4](https://user-images.githubusercontent.com/70527398/142971754-7bba51ec-aec1-49a2-b4a4-3fb158f06b3c.gif)
+
+
 ## User Stories (Part One)
 
 The following **required** functionality is completed:
