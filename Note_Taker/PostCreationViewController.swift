@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import Parse
+import AlamofireImage
 
 class PostCreationViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
@@ -16,6 +18,24 @@ class PostCreationViewController: UIViewController, UIImagePickerControllerDeleg
     @IBOutlet weak var Caption: UITextField!
     
     @IBAction func OnSubmitPost(_ sender: Any) {
+//        let courseString = CourseNumber.text!
+//        let courseSection = PFObject(className: courseString)
+//
+//        courseSection["user"] = PFUser.current()!
+//        courseSection["hashtags"] = Hashtags.text!
+//        courseSection["caption"] = Caption.text!
+//
+//        let imageData = CameraPicture.image!.pngData()
+//        let file = PFFileObject(name: "image.png", data: imageData!)
+//        courseSection["image"] = file
+//
+//        courseSection.saveInBackground{ (success, error) in
+//            if success {
+//                self.dismiss(animated: true, completion: nil)
+//            } else {
+//                print("error")
+//            }
+//        }
     }
     
     @IBAction func LoadPhotoAlbum(_ sender: Any) {
