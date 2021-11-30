@@ -1,3 +1,15 @@
+## User Stories (Part Three)
+
+The following **required** functionality is completed:
+
+- [X] Users can sign in and sign out for the app.
+- [X] Added some more functionality for posting.
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+
 ## User Stories (Part Two)
 
 The following **required** functionality is completed:
