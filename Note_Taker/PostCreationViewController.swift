@@ -17,25 +17,32 @@ class PostCreationViewController: UIViewController, UIImagePickerControllerDeleg
     @IBOutlet weak var PhotoAlbum: UIImageView!
     @IBOutlet weak var Caption: UITextField!
     
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
+    }
+    
+    
     @IBAction func OnSubmitPost(_ sender: Any) {
-//        let courseString = CourseNumber.text!
-//        let courseSection = PFObject(className: courseString)
-//
-//        courseSection["user"] = PFUser.current()!
-//        courseSection["hashtags"] = Hashtags.text!
-//        courseSection["caption"] = Caption.text!
-//
-//        let imageData = CameraPicture.image!.pngData()
-//        let file = PFFileObject(name: "image.png", data: imageData!)
-//        courseSection["image"] = file
-//
-//        courseSection.saveInBackground{ (success, error) in
-//            if success {
-//                self.dismiss(animated: true, completion: nil)
-//            } else {
-//                print("error")
-//            }
-//        }
+        let courseSection = PFObject(className: CourseNumber.text!)
+
+        courseSection["user"] = PFUser.current()!
+        courseSection["hashtags"] = Hashtags.text!
+        courseSection["caption"] = Caption.text!
+
+        let imageData = PhotoAlbum.image!.pngData()
+        let file = PFFileObject(name: "image.png", data: imageData!)
+        courseSection["image"] = file
+
+        courseSection.saveInBackground{ (success, error) in
+            if success {
+                self.dismiss(animated: true, completion: nil)
+            } else {
+                print("error")
+            }
+        }
     }
     
     @IBAction func LoadPhotoAlbum(_ sender: Any) {
@@ -47,21 +54,26 @@ class PostCreationViewController: UIViewController, UIImagePickerControllerDeleg
         present(picker, animated: true, completion: nil)
     }
     
+    
+    
+    
     @IBAction func LoadCamera(_ sender: Any) {
         let cameraPicker = UIImagePickerController()
         cameraPicker.delegate = self
         cameraPicker.allowsEditing = true
         cameraPicker.sourceType = .camera
         
-        present(cameraPicker, animated: true, completion: nil)    }
-    
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        present(cameraPicker, animated: true, completion: nil)
     }
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+           let image = info[.editedImage] as! UIImage
+           
+           let size = CGSize(width: 300, height: 300)
+           let scaledImage = image.af_imageScaled(to: size)
+           PhotoAlbum.image = scaledImage
+           dismiss(animated: true, completion: nil)
+       }
     
 
     /*
