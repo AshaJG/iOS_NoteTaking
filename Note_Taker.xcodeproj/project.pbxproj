@@ -20,6 +20,7 @@
 		4F2944D62741B108004E590B /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2944D52741B108004E590B /* FeedViewController.swift */; };
 		A6642CCCD62470A355433D34 /* Pods_Note_Taker_Note_TakerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A185A7F0E9D15294D62FFD4 /* Pods_Note_Taker_Note_TakerUITests.framework */; };
 		B16DBEC2274C9ED9008E8EB1 /* PostCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16DBEC1274C9ED9008E8EB1 /* PostCreationViewController.swift */; };
+		CE12653227598E35001C38B9 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12653127598E35001C38B9 /* PostCell.swift */; };
 		E2786609FDA0CABA947B4FB3 /* Pods_Note_TakerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2857C9D9339A32A4CFAA607A /* Pods_Note_TakerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		616555120D562E9C6EA949D4 /* Pods-Note_Taker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Note_Taker.debug.xcconfig"; path = "Target Support Files/Pods-Note_Taker/Pods-Note_Taker.debug.xcconfig"; sourceTree = "<group>"; };
 		97D1B981CFEBCE8379F99BC0 /* Pods-Note_Taker-Note_TakerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Note_Taker-Note_TakerUITests.release.xcconfig"; path = "Target Support Files/Pods-Note_Taker-Note_TakerUITests/Pods-Note_Taker-Note_TakerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B16DBEC1274C9ED9008E8EB1 /* PostCreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCreationViewController.swift; sourceTree = "<group>"; };
+		CE12653127598E35001C38B9 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		DF98C645F1A188A235AD0D1F /* Pods-Note_TakerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Note_TakerTests.debug.xcconfig"; path = "Target Support Files/Pods-Note_TakerTests/Pods-Note_TakerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E9AE722201BEAFAF4425747A /* Pods-Note_TakerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Note_TakerTests.release.xcconfig"; path = "Target Support Files/Pods-Note_TakerTests/Pods-Note_TakerTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED85EF8C98ACA72966BC4518 /* Pods-Note_Taker-Note_TakerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Note_Taker-Note_TakerUITests.debug.xcconfig"; path = "Target Support Files/Pods-Note_Taker-Note_TakerUITests/Pods-Note_Taker-Note_TakerUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				4F2944AC27419E8C004E590B /* LaunchScreen.storyboard */,
 				4F2944AF27419E8C004E590B /* Info.plist */,
 				4F2944D52741B108004E590B /* FeedViewController.swift */,
+				CE12653127598E35001C38B9 /* PostCell.swift */,
 			);
 			path = Note_Taker;
 			sourceTree = "<group>";
@@ -417,6 +420,7 @@
 				4F2944D62741B108004E590B /* FeedViewController.swift in Sources */,
 				4F2944A427419E8B004E590B /* SceneDelegate.swift in Sources */,
 				B16DBEC2274C9ED9008E8EB1 /* PostCreationViewController.swift in Sources */,
+				CE12653227598E35001C38B9 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -25,9 +25,10 @@ class PostCreationViewController: UIViewController, UIImagePickerControllerDeleg
     }
     
     
-    @IBAction func OnSubmitPost(_ sender: Any) {
-        let courseSection = PFObject(className: CourseNumber.text!)
-
+    @IBAction func OnSubmitPost(_ sender: Any){
+        
+        let courseSection = PFObject(className: "Course")
+        courseSection["courseNumber"] = (CourseNumber.text!).uppercased()
         courseSection["user"] = PFUser.current()!
         courseSection["hashtags"] = Hashtags.text!
         courseSection["caption"] = Caption.text!
@@ -69,7 +70,7 @@ class PostCreationViewController: UIViewController, UIImagePickerControllerDeleg
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
            let image = info[.editedImage] as! UIImage
            
-           let size = CGSize(width: 300, height: 300)
+           let size = CGSize(width: 374, height: 377)
            let scaledImage = image.af_imageScaled(to: size)
            PhotoAlbum.image = scaledImage
            dismiss(animated: true, completion: nil)
