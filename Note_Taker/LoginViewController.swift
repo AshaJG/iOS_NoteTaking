@@ -52,11 +52,11 @@ class LoginViewController: UIViewController {
     
     @IBAction func onSignUp(_ sender: Any) {
         let user = PFUser()
+        
         user.username = usernameField.text
         user.password = passwordField.text
-        //user.email = "email@example.com"
-        
-        user.signUpInBackground { success, error in
+
+        user.signUpInBackground { (success, error) in
             
             if success {
                 self.performSegue(withIdentifier: "loginSegue", sender: nil)
