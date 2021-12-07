@@ -1,3 +1,22 @@
+## User Stories (Part Four)
+
+The following **required** functionality is completed:
+
+- [X] Users have a table view to view posts
+- [X] Users can post posts and it will automatically refresh
+- [X] Added tab navigation
+- [X] Posts appear from newest to oldest
+- [X] Users can search for specific posts based on course
+- [X] Stylized launch screen and app icon
+- [X] Beautified the app
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+![ezgif-1-ce709e7c8113](https://user-images.githubusercontent.com/70527398/144970442-301b6c7b-9ecf-485e-9bcc-7fdbd3517e0c.gif)
+
+
 ## User Stories (Part Three)
 
 The following **required** functionality is completed:
