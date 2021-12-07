@@ -18,14 +18,14 @@
 		4F2944C527419E8C004E590B /* Note_TakerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2944C427419E8C004E590B /* Note_TakerUITestsLaunchTests.swift */; };
 		4F2944D42741B0EF004E590B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2944D32741B0EF004E590B /* LoginViewController.swift */; };
 		4F2944D62741B108004E590B /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2944D52741B108004E590B /* FeedViewController.swift */; };
-<<<<<<< Updated upstream
-=======
-		4FC5DC67275B0D25006BA721 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC5DC66275B0D25006BA721 /* ProfileViewController.swift */; };
+
 		4FC5DC6B275C1F72006BA721 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC5DC6A275C1F71006BA721 /* EditProfileViewController.swift */; };
+		4FC5DC77275F345F006BA721 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC5DC76275F345F006BA721 /* ProfileViewController.swift */; };
 		961DAEBF275F2365004836FC /* SearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961DAEBE275F2365004836FC /* SearchBarViewController.swift */; };
 		961DAEC1275F358C004836FC /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961DAEC0275F358C004836FC /* SearchResultViewController.swift */; };
 		961DAEC3275F3707004836FC /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961DAEC2275F3707004836FC /* SearchCell.swift */; };
->>>>>>> Stashed changes
+
+
 		A6642CCCD62470A355433D34 /* Pods_Note_Taker_Note_TakerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A185A7F0E9D15294D62FFD4 /* Pods_Note_Taker_Note_TakerUITests.framework */; };
 		B16DBEC2274C9ED9008E8EB1 /* PostCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16DBEC1274C9ED9008E8EB1 /* PostCreationViewController.swift */; };
 		CE12653227598E35001C38B9 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12653127598E35001C38B9 /* PostCell.swift */; };
@@ -68,6 +68,8 @@
 		4F2944C427419E8C004E590B /* Note_TakerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note_TakerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4F2944D32741B0EF004E590B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4F2944D52741B108004E590B /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		4FC5DC6A275C1F71006BA721 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		4FC5DC76275F345F006BA721 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		616555120D562E9C6EA949D4 /* Pods-Note_Taker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Note_Taker.debug.xcconfig"; path = "Target Support Files/Pods-Note_Taker/Pods-Note_Taker.debug.xcconfig"; sourceTree = "<group>"; };
 		961DAEBE275F2365004836FC /* SearchBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
 		961DAEC0275F358C004836FC /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
@@ -138,6 +140,8 @@
 				4F2944A327419E8B004E590B /* SceneDelegate.swift */,
 				B16DBEC1274C9ED9008E8EB1 /* PostCreationViewController.swift */,
 				4F2944A727419E8B004E590B /* Main.storyboard */,
+				4FC5DC76275F345F006BA721 /* ProfileViewController.swift */,
+				4FC5DC6A275C1F71006BA721 /* EditProfileViewController.swift */,
 				4F2944AA27419E8C004E590B /* Assets.xcassets */,
 				4F2944AC27419E8C004E590B /* LaunchScreen.storyboard */,
 				4F2944AF27419E8C004E590B /* Info.plist */,
@@ -429,22 +433,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< Updated upstream
-=======
+
 				4FC5DC6B275C1F72006BA721 /* EditProfileViewController.swift in Sources */,
 				961DAEC3275F3707004836FC /* SearchCell.swift in Sources */,
->>>>>>> Stashed changes
+
+
 				4F2944D42741B0EF004E590B /* LoginViewController.swift in Sources */,
 				961DAEC1275F358C004836FC /* SearchResultViewController.swift in Sources */,
 				4F2944A227419E8B004E590B /* AppDelegate.swift in Sources */,
 				4F2944D62741B108004E590B /* FeedViewController.swift in Sources */,
 				4F2944A427419E8B004E590B /* SceneDelegate.swift in Sources */,
-<<<<<<< Updated upstream
-=======
+
 				961DAEBF275F2365004836FC /* SearchBarViewController.swift in Sources */,
 				4FC5DC67275B0D25006BA721 /* ProfileViewController.swift in Sources */,
->>>>>>> Stashed changes
+
 				B16DBEC2274C9ED9008E8EB1 /* PostCreationViewController.swift in Sources */,
+				
 				CE12653227598E35001C38B9 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

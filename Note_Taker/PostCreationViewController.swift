@@ -25,6 +25,10 @@ class PostCreationViewController: UIViewController, UIImagePickerControllerDeleg
     }
     
     
+    @IBAction func onCancelPost(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     @IBAction func OnSubmitPost(_ sender: Any){
         
         let courseSection = PFObject(className: "Course")
