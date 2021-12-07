@@ -19,7 +19,9 @@ class EditProfileViewController: UIViewController , UIImagePickerControllerDeleg
     @IBOutlet weak var passwordRepeatTextfield: UITextField!
     
     //connects to the profile to display changes
-       var opener: ProfileViewController!
+  
+    var opener : UserProfileViewController!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
